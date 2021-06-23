@@ -1,4 +1,4 @@
-# [Pearl]()
+# Pearl
 
 <img src="https://github.com/sctlcd/pearl/blob/master/design/mockups.png" alt="Pearl" width="800">
 <dl>
@@ -6,7 +6,7 @@
 <dd>Then this website is a <strong>pearl</strong> to you!</dd>
 <dd>At Pearl's you can <strong>purchase arts and crafts supplies</strong> and <strong>sharing customers' work of art</strong> in the meantime as <strong>getting inspiration</strong> from other customers' creative work in the <strong>gallery</strong>.</dd>
 
-[Let me show you!]()
+Let me show you!
 <br />
 <br />
 **Warning**
