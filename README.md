@@ -752,8 +752,22 @@ Next, there's a series of steps to take in order to proceed with local deploymen
     - `git clone https://github.com/sctlcd/pearl.git`
 - Navigate to the correct file location after unpacking the files.
     - `cd <path to folder>`
-- Create a `.env` file with your own credentials. An example *.env* file can be found here ([.env_sample](project/.env_sample)).
-    - *Note: the example .env file contains environmental variables for both local and remote deployment. (see below for remote deployment details)*
+- Create a `.env` file with your own credentials.
+
+	| **Key** | **Value** |
+	|----------|:-------------:|
+	| AWS_ACCESS_KEY_ID | <your_aws_access_key_id>  |
+	| AWS_SECRET_ACCESS_KEY | <your_aws_secret_access_key> |
+	| DATABASE_URL | <your_database_url> |
+	| EMAIL_HOST_PASS | <your_email_host_pass> |
+	| EMAIL_HOST_USER | <your_email_host_user> |
+	| SECRET_KEY | <your_secret_key> |
+	| STRIPE_PUBLIC_KEY| <your_stripe_public_key> |
+	| STRIPE_SECRET_KEY | <your_stripe_secret_key> |
+	| STRIPE_WH_SECRET | <your_stripe_wh_secret> |
+	| USE_AWS | True |
+	| DEBUG | DEVELOPMENT |
+
 - Install all requirements from the [requirements.txt](project/requirements.txt) file using this command:
     - `sudo -H pip3 -r requirements.txt`
 - In the IDE terminal, use the following command to launch the Django project:
@@ -788,6 +802,20 @@ This site is currently deployed on [Heroku](https://www.heroku.com/) using the *
 - Sign up for a free Heroku account, create your project app, and click the **Deploy** tab, at which point you can *Connect GitHub* as the Deployment Method, and select *Enable Automatic Deployment*.
 - In the Heroku **Resources** tab, navigate to the *Add-Ons* section and search for **Heroku Postgres**. Make sure to select the free *Hobby* level. This will allow you to have a remote database instead of using the local sqlite3 database, and can be found in the Settings tab. You'll need to update your *.env* file with your new *database-url* details.
 - In the Heroku **Settings** tab, click on the *Reveal Config Vars* button to configure environmental variables. You will need to copy/paste all of the *.env* key value pairs into the config variables, but please omit the *development=1* variable; this is only for local deployment.
+
+	| **Key** | **Value** |
+	|----------|:-------------:|
+	| AWS_ACCESS_KEY_ID | <your_aws_access_key_id>  |
+	| AWS_SECRET_ACCESS_KEY | <your_aws_secret_access_key> |
+	| DATABASE_URL | <your_database_url> |
+	| EMAIL_HOST_PASS | <your_email_host_pass> |
+	| EMAIL_HOST_USER | <your_email_host_user> |
+	| SECRET_KEY | <your_secret_key> |
+	| STRIPE_PUBLIC_KEY| <your_stripe_public_key> |
+	| STRIPE_SECRET_KEY | <your_stripe_secret_key> |
+	| STRIPE_WH_SECRET | <your_stripe_wh_secret> |
+	| USE_AWS | True |
+
 - Your app should be successfully deployed to Heroku at this point, but you're not quite finished yet!
 - Update the *settings.py* file to connect the remote database using this Python package: `dj_database_url`
 - Re-build the migrations and create a superuser to your new remote database using the instructions in the *local deployment* section above.
@@ -954,8 +982,7 @@ Back to [top](#tableOfContents)
 - Modify Title and Header Django Admin Interface - [medium](https://adiramadhan17.medium.com/modify-title-and-header-django-admin-interface-a6ad6e470d92)
 - Customizing HTTP error web pages 404, 500, 403 and 400 in Django - [lavatech technology](http://lavatechtechnology.com/post/customizing-http-error-web-pages-404-500-403-and-400-in-django/)
 - Equivalent of export command in Windows - [superuser](https://superuser.com/questions/1500272/equivalent-of-export-command-in-windows)
-- Heroku Django Deploy Stripe Issue - No module named 'stripe'
-- [stack overflow](https://stackoverflow.com/questions/51509121/heroku-django-deploy-stripe-issue-no-module-named-stripe/51509169)
+- Heroku Django Deploy Stripe Issue - No module named 'stripe' - [stack overflow](https://stackoverflow.com/questions/51509121/heroku-django-deploy-stripe-issue-no-module-named-stripe/51509169)
 - Readme file information - [Tim Nelson](https://github.com/TravelTimN) Software Developer and Tutor at [Code Institute](http://codeinstitute.net)
 - How to Rename a Local Branch in Git - [git tower](https://www.git-tower.com/learn/git/faq/git-rename-branch/)
 
