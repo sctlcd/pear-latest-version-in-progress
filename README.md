@@ -1,4 +1,4 @@
-# [Pearl](https://sctlcd-pearl3.herokuapp.com/)
+# [Pearl]()
 
 <img src="https://github.com/sctlcd/pearl/blob/master/design/mockups.png" alt="Pearl" width="800">
 <dl>
@@ -6,7 +6,7 @@
 <dd>Then this website is a <strong>pearl</strong> to you!</dd>
 <dd>At Pearl's you can <strong>purchase arts and crafts supplies</strong> and <strong>sharing customers' work of art</strong> in the meantime as <strong>getting inspiration</strong> from other customers' creative work in the <strong>gallery</strong>.</dd>
 
-[Let me show you!](https://sctlcd-pearl3.herokuapp.com/)
+[Let me show you!]()
 <br />
 <br />
 **Warning**
@@ -657,11 +657,11 @@ Back to [top](#tableOfContents)
 
 I tested the website across the 6 main browsers in both desktop and mobile configuration to ensure a large number of users can use it successfully.
 
-- Chrome v.87.0
-- Edge v.87.0
-- Firefox v.84.0
+- Chrome v.91.0
+- Edge v.91.0
+- Firefox v.89.0
 - Safari v.5.1.7 for Windows 10
-- Opera v.73.0
+- Opera v.76.0
 - Internet Explorer v.11
 
 |All pages | Chrome | Edge | Firefox | Safari | Opera | IE |
