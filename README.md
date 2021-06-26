@@ -768,7 +768,7 @@ Next, there's a series of steps to take in order to proceed with local deploymen
 	| USE_AWS | True |
 	| DEBUG | DEVELOPMENT |
 
-- Install all requirements from the [requirements.txt](project/requirements.txt) file using this command:
+- Install all requirements from the [requirements.txt](https://github.com/sctlcd/pearl-latest-version/blob/master/requirements.txt) file using this command:
     - `sudo -H pip3 -r requirements.txt`
 - In the IDE terminal, use the following command to launch the Django project:
     - `python manage.py runserver`
@@ -795,10 +795,10 @@ This site is currently deployed on [Heroku](https://www.heroku.com/) using the *
 
 - Create a **requirements.txt** file so Heroku can install the required dependencies to run the app:
     - `sudo pip3 freeze --local > requirements.txt`
-    - The *requirements.txt* file for this project can be found here: [requirements.txt](https://github.com/sctlcd/pearl/blob/master/requirements.txt)
-- Create a **Procfile** to tell Heroku what type of application is being deployed using *pearl*, and how to run it:
+    - The *requirements.txt* file for this project can be found here: [requirements.txt](https://github.com/sctlcd/pearl-latest-version/blob/master/requirements.txt)
+- Create a **Procfile** to tell Heroku what type of application is being deployed using *pearl-latest-version*, and how to run it:
     - `echo web: gunicorn main.wsgi:application > Procfile`
-    - The *Procfile* for this project can be found here: [Procfile](https://github.com/sctlcd/pearl/blob/master/Procfile)
+    - The *Procfile* for this project can be found here: [Procfile](https://github.com/sctlcd/pearl-latest-version/tree/master/profiles)
 - Sign up for a free Heroku account, create your project app, and click the **Deploy** tab, at which point you can *Connect GitHub* as the Deployment Method, and select *Enable Automatic Deployment*.
 - In the Heroku **Resources** tab, navigate to the *Add-Ons* section and search for **Heroku Postgres**. Make sure to select the free *Hobby* level. This will allow you to have a remote database instead of using the local sqlite3 database, and can be found in the Settings tab. You'll need to update your *.env* file with your new *database-url* details.
 - In the Heroku **Settings** tab, click on the *Reveal Config Vars* button to configure environmental variables. You will need to copy/paste all of the *.env* key value pairs into the config variables, but please omit the *development=1* variable; this is only for local deployment.
