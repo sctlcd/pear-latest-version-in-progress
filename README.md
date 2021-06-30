@@ -1,12 +1,12 @@
-# Pearl
+# [Pearl](https://sctlcd-pearl3-latest-version.herokuapp.com/)
 
-<img src="https://github.com/sctlcd/pearl/blob/master/design/mockups.png" alt="Pearl" width="800">
+<img src="https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/design/mockups.png" alt="Pearl" width="800">
 <dl>
 <dd>Do you like <strong>creative activities</strong>, <strong>arts and crafts</strong> and <strong>making things by yourself</strong> with creativity, happiness and your own two hands ?</dd>
 <dd>Then this website is a <strong>pearl</strong> to you!</dd>
 <dd>At Pearl's you can <strong>purchase arts and crafts supplies</strong> and <strong>sharing customers' work of art</strong> in the meantime as <strong>getting inspiration</strong> from other customers' creative work in the <strong>gallery</strong>.</dd>
 
-Let me show you!
+[Let me show you!](https://sctlcd-pearl3-latest-version.herokuapp.com/)
 <br />
 <br />
 **Warning**
@@ -144,11 +144,11 @@ Back to [top](#tableOfContents)
 
 I did choose a warm, joyful and energetic orange ![#fc9601](https://placehold.it/15/fc9601/fc9601) `#fc9601` combined with sober and reliable colors ranging between off-white ![#fafafa](https://placehold.it/15/fafafa/fafafa) `#fafafa` and black ![#000](https://placehold.it/15/000/000) `#000` with shades of grey (more color details in [Color Scheme](#colorScheme) section).
 <br />
-I first selected my [logo](https://www.flaticon.com/free-icon/craft_3079199) from Flaticon(https://www.flaticon.com) which I customized in [Pearl logo](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png).
+I first selected my [logo](https://www.flaticon.com/free-icon/craft_3079199) from Flaticon(https://www.flaticon.com) which I customized in [Pearl logo](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/media/logo/pearl-min.png).
 <br />
-Then I chose [images](https://github.com/sctlcd/pearl/tree/master/media) relative to arts and crafts and creative activities which fit well in my color scheme and in the space allocated.
+Then I chose [images](https://github.com/sctlcd/pearl-latest-version-in-progresstree/master/media) relative to arts and crafts and creative activities which fit well in my color scheme and in the space allocated.
 <br />
-I finally selected the main home page image, a [fire spin](https://github.com/sctlcd/pearl/blob/master/media/home/hero_image/hero-image-background-min.jpg) picture, as I found it absolutely stunning, very eye-catchy and intriguing. Catching customers/visitors' attention and raising their interest and curiosity are, I believe, a good recipe for new visitors as much as for regular customers of an e-commerce site.  
+I finally selected the main home page image, a [fire spin](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/media/home/hero_image/hero-image-background-min.jpg) picture, as I found it absolutely stunning, very eye-catchy and intriguing. Catching customers/visitors' attention and raising their interest and curiosity are, I believe, a good recipe for new visitors as much as for regular customers of an e-commerce site.  
 <br />
 I decided to implement a customers' gallery and offering the possibility to share your own piece of art while getting inspiration from other customers' art work. I believe this feature is a very interesting one as it involves the customers/makes the customers participate in the website building. They are actors, in a way, of the gallery page building and its content.  
 
@@ -209,7 +209,7 @@ Back to [top](#tableOfContents)
 	- [Exclamation mark](https://fontawesome.com/icons/exclamation-circle?style=solid)
 
 - [Flaticon](https://www.flaticon.com/): It fits my needs for this project
-	- Pearl logo: from [original version](https://www.flaticon.com/free-icon/craft_3079199) to customize in [Pearl version](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png)
+	- Pearl logo: from [original version](https://www.flaticon.com/free-icon/craft_3079199) to customize in [Pearl version](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/media/logo/pearl-min.png)
 
 Back to [top](#tableOfContents)
 
@@ -232,7 +232,7 @@ I have used Balsamiq Wireframes for my wireframes because:
 
 - Code Institute have provided all students a free licence. I got to use this software a few years ago and I am pretty happy to get the chance to use it again.
 - The simplicity, rapidity and ease of use by focusing on structure and content.
-- My wireframes for this project can be found here in the [wireframes](https://github.com/sctlcd/pearl/tree/master/design/wireframes/) sub-directory.
+- My wireframes for this project can be found here in the [wireframes](https://github.com/sctlcd/pearl-latest-version-in-progresstree/master/design/wireframes/) sub-directory.
 
 Remark: There is a bug at the opening of the balsamiq file: in each page on the mobile version, there are icon overlays on the right corner.
 
@@ -402,7 +402,7 @@ Back to [top](#tableOfContents)
 
 ##### Pearl Admin Portal
 
-- I customise the Default Django Administration in [pearl/urls.py](https://github.com/sctlcd/pearl/blob/master/pearl/urls.py):
+- I customise the Default Django Administration in [pearl/urls.py](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/pearl/urls.py):
 ```
 admin.site.site_header = 'Pearl Administration'
 admin.site.site_title = 'Pearl Admin Portal'
@@ -410,7 +410,7 @@ admin.site.index_title = 'Welcome to Pearl Admin Portal'
 admin.site.site_url = '/admin'
 ```
 
-- I changed the time zone to match with the physical location of Pearl shop in New Orleans in USA and the format of time and date in [pearl/settings.py](https://github.com/sctlcd/pearl/blob/master/pearl/settings.py)
+- I changed the time zone to match with the physical location of Pearl shop in New Orleans in USA and the format of time and date in [pearl/settings.py](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/pearl/settings.py)
 ```
 # Time Zone in New Orleans, Louisiana, USA : CST — Central Standard Time
 # corresponding to America/Chicago according to
@@ -465,7 +465,7 @@ Back to [top](#tableOfContents)
 
 ## Relational scheme <a name="relationalScheme"></a>
 
-The Relational scheme diagram can be found [here](https://github.com/sctlcd/pearl/blob/master/design/relational-scheme.png)
+The Relational scheme diagram can be found [here](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/design/relational-scheme.png)
 
 Pearl database table details:
 
@@ -679,7 +679,7 @@ I tested the website across the 6 main browsers in both desktop and mobile confi
 | :---: | :---: | :---: | :---: |
 | 89% | 82% | 93% | 90% |
 
-The Chrome DevTools Audit Report can be found in my [testing folder](https://github.com/sctlcd/pearl/blob/master/testing/devtools-audit-report.PNG)
+The Chrome DevTools Audit Report can be found in my [testing folder](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/testing/devtools-audit-report.PNG)
 
 Back to [top](#tableOfContents)
 
@@ -727,7 +727,7 @@ Back to [top](#tableOfContents)
 - If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible (from products page, gallery page).  
 - Set image gallery back to required.
 - Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
-- The order is created and the payment is charged correctly (see [here](https://github.com/sctlcd/pearl/tree/master/testing/stripe_checkout_wh.PNG) and [here](https://github.com/sctlcd/pearl/tree/master/testing/stripe_payment.PNG)) The order confirmation email is not received.
+- The order is created and the payment is charged correctly (see [here](https://github.com/sctlcd/pearl-latest-version-in-progresstree/master/testing/stripe_checkout_wh.PNG) and [here](https://github.com/sctlcd/pearl-latest-version-in-progresstree/master/testing/stripe_payment.PNG)) The order confirmation email is not received.
 - Create a Project folder at the root of Pearl repository containing the code project repositories in order to separate design and testing folders from the code project repository.
 
 Back to [top](#tableOfContents)
@@ -783,7 +783,7 @@ Next, there's a series of steps to take in order to proceed with local deploymen
 
 Once the database migrations and superuser have been successfully completed, Django should migrate the existing *migrations.py* files from each app to configure the following relational schema:
 
-- [Relational Schema](https://github.com/sctlcd/pearl/blob/master/design/relational-scheme.png)
+- [Relational Schema](https://github.com/sctlcd/pearl-latest-version-in-progressblob/master/design/relational-scheme.png)
 
 Back to [top](#tableOfContents)
 
