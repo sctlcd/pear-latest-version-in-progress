@@ -727,7 +727,6 @@ Back to [top](#tableOfContents)
 - If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible (from products page, gallery page).  
 - Set image gallery back to required.
 - Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
-- The order is created and the payment is charged correctly (see [here](https://github.com/sctlcd/pearl-latest-version-in-progresstree/master/testing/stripe_checkout_wh.PNG) and [here](https://github.com/sctlcd/pearl-latest-version-in-progresstree/master/testing/stripe_payment.PNG)) The order confirmation email is not received.
 - Create a Project folder at the root of Pearl repository containing the code project repositories in order to separate design and testing folders from the code project repository.
 
 Back to [top](#tableOfContents)
@@ -985,6 +984,8 @@ Back to [top](#tableOfContents)
 - Heroku Django Deploy Stripe Issue - No module named 'stripe' - [stack overflow](https://stackoverflow.com/questions/51509121/heroku-django-deploy-stripe-issue-no-module-named-stripe/51509169)
 - Readme file information - [Tim Nelson](https://github.com/TravelTimN) Software Developer and Tutor at [Code Institute](http://codeinstitute.net)
 - How to Rename a Local Branch in Git - [git tower](https://www.git-tower.com/learn/git/faq/git-rename-branch/)
+- Sending email [django](https://docs.djangoproject.com/en/3.2/topics/email/)
+- BadHeaderError with Python emails package, how to fix? [stack overflow](https://stackoverflow.com/questions/55903845/badheadererror-with-python-emails-package-how-to-fix)
 
 Back to [top](#tableOfContents)
 
