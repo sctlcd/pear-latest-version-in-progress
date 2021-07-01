@@ -26,13 +26,13 @@ class StripeWH_Handler:
             Send the user a confirmation email
         """
         cust_email = order.email
+        # strip() credit: https://stackoverflow.com/questions/55903845/badheadererror-with-python-emails-package-how-to-fix
         subject = render_to_string(
             'checkout/confirmation_emails/confirmation_email_subject.txt',
-            {'order': order})
+            {'order': order}).strip()
         body = render_to_string(
             'checkout/confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
-
         send_mail(
             subject,
             body,
