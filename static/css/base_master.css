@@ -607,12 +607,13 @@ nav a.waves-effect {
   letter-spacing: 2px;
 }
 
-.page-footer .fa-github:hover {
-  color: #d8d8d86e !important;
-}
-
 .about-links p a:hover {
   color: #fc9601eb !important;
+}
+
+footer a .fa:hover,
+footer a .fab:hover {
+  color: #d8d8d86e !important;
 }
 
 /* ------------------------------- bootstrap toasts */
