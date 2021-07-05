@@ -607,9 +607,9 @@ nav a.waves-effect {
   letter-spacing: 2px;
 }
 
-.page-footer .fa-github:hover {
+/* .page-footer .fa-github:hover {
   color: #fc9601eb !important;
-}
+} */
 
 .about-links p a:hover {
   color: #fc9601eb !important;
@@ -798,6 +798,11 @@ nav a.waves-effect {
   .mobile-user-options-container .dropdown-menu a {
     font-size: small;
   }
+
+  .btn-social-media {
+    font-size: 1.25rem;
+    padding: .7rem 1.2rem !important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -897,6 +902,11 @@ nav a.waves-effect {
   .mobile-gallery-container .dropdown-menu a,
   .mobile-user-options-container .dropdown-menu a {
     font-size: small;
+  }
+
+  .btn-social-media {
+    font-size: 1.25rem;
+    padding: .7rem 1.2rem !important;
   }
 }
 
@@ -1001,6 +1011,11 @@ nav a.waves-effect {
   .mobile-user-options-container .dropdown-menu a {
     font-size: medium;
   }
+
+  .btn-social-media {
+    font-size: 1rem;
+    padding: .7rem 1rem !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -1049,6 +1064,11 @@ nav a.waves-effect {
 
   .page-footer {
     font-size: .9rem;
+  }
+
+  .btn-social-media {
+    font-size: 1.25rem;
+    padding: .9rem 1.6rem !important;
   }
 }
 
