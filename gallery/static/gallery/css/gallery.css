@@ -92,60 +92,44 @@
 /* -------------------------------- Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
-  .btn-social-media {
-    padding: .5rem 0.8rem !important;
+  .modal-social-medias a {
+    padding: .2rem 0.4rem !important;
   }
 
   .modal-social-medias a i {
-    font-size: 0.8rem;
-  }
-
-  .modal-social-medias a i:hover {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) {
-  .btn-social-media {
+  .modal-social-medias a {
     padding: .5rem 0.8rem !important;
   }
 
   .modal-social-medias a i {
-    font-size: 0.8rem;
-  }
-
-  .modal-social-medias a i:hover {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .btn-social-media {
+  .modal-social-medias a {
     padding: .7rem 1rem !important;
   }
 
   .modal-social-medias a i {
-    font-size: 1rem;
-  }
-
-  .modal-social-medias a i:hover {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .btn-social-media {
+  .modal-social-medias a {
     padding: .9rem 1.6rem !important;
   }
 
   .modal-social-medias a i {
-    font-size: 1.25rem;
-  }
-
-  .modal-social-medias a i:hover {
     font-size: 1.5rem;
   }
 }
@@ -154,15 +138,11 @@
 /* Extra large devices (large desktops, 1200px and up) */
 /* Slightly larger container on xl screens */
 @media only screen and (min-width: 1200px) {
-  .btn-social-media {
+  .modal-social-medias a {
     padding: .9rem 1.6rem !important;
   }
 
   .modal-social-medias a i {
-    font-size: 1.25rem;
-  }
-
-  .modal-social-medias a i:hover {
     font-size: 1.5rem;
   }
 }
