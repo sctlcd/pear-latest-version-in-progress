@@ -17,7 +17,7 @@ body {
 /* ------------------------------- button */
 .btn-grey {
   background-color: #6c757d !important;
-  color: #fafafa;
+  color: #fafafa !important;
   border-radius: 45px;
 }
 
