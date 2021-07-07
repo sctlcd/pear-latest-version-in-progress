@@ -611,9 +611,8 @@ nav a.waves-effect {
   color: #fc9601eb !important;
 }
 
-footer a .fa:hover,
-footer a .fab:hover {
-  color: #d8d8d86e !important;
+footer a i:hover {
+  color: #6c757d !important;
 }
 
 /* ------------------------------- bootstrap toasts */
