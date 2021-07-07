@@ -21,7 +21,7 @@
 <div class="overlay"></div>
 <div class="container add-gallery-container">
 	<div class="row justify-content-center">
-		<div class="col-12 col-md-6 text-center mb-5" style="margin:0 auto">
+		<div class="col-10 col-md-6 text-center mb-5" style="margin:0 auto">
 			<hr>
 			<h2 class="logo-font mb-4">Gallery Management</h2>
 			<h5 class="text-muted">Edit a Gallery image</h5>
@@ -30,7 +30,7 @@
 	</div>
 
 	<div class="row justify-content-center">
-		<div class="col-12 col-md-6" style="margin:0 auto">
+		<div class="col-10 col-md-6" style="margin:0 auto">
 			<form method="POST" action="{% url 'edit_gallery' gallery_item.id %}" id="edit-gallery-form" class="form mb-2" enctype="multipart/form-data" class="needs-validation" novalidate>
 				{% csrf_token %}
 				{{ admin_gallery_form | crispy }}
