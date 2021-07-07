@@ -192,9 +192,8 @@ body {
   color: #6c757d;
 }
 
-.allauth-form-inner-content input {
-  border-color: #000;
-  border-radius: 0;
+.allauth-form-inner-content form label {
+  color: #6c757d;
 }
 
 .allauth-form-inner-content label:not([for='id_remember']) {
@@ -252,6 +251,11 @@ body {
 
 .allauth-buttons {
   margin-top: 2rem;
+}
+.allauth-form-inner-content .form-control {
+  color: #000;
+  border-color: #aab7c4;
+  border-radius: 10px;
 }
 
 /* ------------------------------- File */
