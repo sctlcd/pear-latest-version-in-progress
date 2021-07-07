@@ -17,7 +17,7 @@ body {
 /* ------------------------------- button */
 .btn-grey {
   background-color: #6c757d !important;
-  color: #fafafa;
+  color: #fafafa !important;
   border-radius: 45px;
 }
 
@@ -152,7 +152,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .border-grey {
-  border: 1px solid #6c757d !important;
+  border: 1px solid #aab7c4 !important;
 }
 
 .bg-transparent {

@@ -47,16 +47,14 @@
   border-top: 1px solid #dee2e6 !important;
 }
 
-.modal-footer span {
-  color: #000;
-}
-
-.modal-footer a i {
+.modal-social-medias a i {
   color: #fc9601eb;
 }
 
-.modal-footer a i:hover {
+.modal-social-medias a i:hover {
   color: #6c757d !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .custom-select:focus {
@@ -89,4 +87,68 @@
 #edit-gallery-form input::placeholder,
 #edit-gallery-form textarea::placeholder {
   color: #aab7c4;
+}
+
+#share-gallery-form label,
+#add-gallery-form label,
+#edit-gallery-form label,
+#edit-gallery-form p {
+  color: #6c757d;
+}
+
+/* -------------------------------- Media Queries */
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575px) {
+  .modal-social-medias a {
+    padding: .2rem 0.4rem !important;
+  }
+
+  .modal-social-medias a i {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  .modal-social-medias a {
+    padding: .5rem 0.8rem !important;
+  }
+
+  .modal-social-medias a i {
+    font-size: 1.2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .modal-social-medias a {
+    padding: .7rem 1rem !important;
+  }
+
+  .modal-social-medias a i {
+    font-size: 1.3rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .modal-social-medias a {
+    padding: .9rem 1.6rem !important;
+  }
+
+  .modal-social-medias a i {
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* Slightly larger container on xl screens */
+@media only screen and (min-width: 1200px) {
+  .modal-social-medias a {
+    padding: .9rem 1.6rem !important;
+  }
+
+  .modal-social-medias a i {
+    font-size: 1.5rem;
+  }
 }
