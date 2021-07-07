@@ -24,6 +24,12 @@ body {
   border-radius: 45px;
 }
 
+.custom-select:focus {
+    border-color: #fc9601eb;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(252 151 1 / 35%);
+}
+
 /* ------------------------------- buttons */
 .btt-link,
 .update-link,
