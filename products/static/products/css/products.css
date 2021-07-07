@@ -55,3 +55,9 @@ a.category-badge>span.badge:hover {
 #edit-product-form textarea::placeholder {
   color: #aab7c4;
 }
+
+#add-product-form label,
+#edit-product-form label,
+#edit-product-form p {
+  color: #6c757d;
+}
