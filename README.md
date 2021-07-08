@@ -2,9 +2,9 @@
 
 <img src="https://github.com/sctlcd/pearl-latest-version-in-progress/blob/master/design/mockups.png" alt="Pearl" width="800">
 <dl>
-<dd>Do you like <strong>creative activities</strong>, <strong>arts and crafts</strong> and <strong>making things by yourself</strong> with creativity, happiness and your own two hands ?</dd>
-<dd>Then this website is a <strong>pearl</strong> to you!</dd>
-<dd>At Pearl's you can <strong>purchase arts and crafts supplies</strong> and <strong>sharing customers' work of art</strong> in the meantime as <strong>getting inspiration</strong> from other customers' creative work in the <strong>gallery</strong>.</dd>
+<dd>Do you like <span class="font-weight-bold">creative activities</span>, <span class="font-weight-bold">arts and crafts</span> and <span class="font-weight-bold">making things by yourself</span> with creativity, happiness and your own two hands ?</dd>
+<dd>Then this website is a <span class="font-weight-bold">pearl</span> to you!</dd>
+<dd>At Pearl's you can <span class="font-weight-bold">purchase arts and crafts supplies</span> and <span class="font-weight-bold">sharing customers' work of art</span> in the meantime as <span class="font-weight-bold">getting inspiration</span> from other customers' creative work in the <span class="font-weight-bold">gallery</span>.</dd>
 
 [Let me show you!](https://sctlcd-pearl3-latest-version.herokuapp.com/)
 <br />
