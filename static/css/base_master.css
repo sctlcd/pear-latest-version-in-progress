@@ -611,6 +611,10 @@ nav a.waves-effect {
   color: #fc9601eb !important;
 }
 
+footer a i:hover {
+  color: #6c757d !important;
+}
+
 /* ------------------------------- bootstrap toasts */
 .message-container {
   position: fixed;

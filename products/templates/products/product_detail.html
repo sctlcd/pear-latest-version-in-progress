@@ -21,7 +21,7 @@
 <div class="overlay"></div>
 <div class="container-fluid">
 	<div class="row justify-content-center">
-		<div class="col-12 col-md-6 col-lg-4 offset-lg-2 text-center">
+		<div class="col-12 col-md-6 col-lg-4 text-center">
 			<div class="image-container my-5 mx-5 zoom">
 				{% if product.image %}
 				<a href="{{ MEDIA_URL }}{{ product.image }}" target="_blank">
@@ -130,7 +130,7 @@
 				</small>
 				{% endif %}
 				<p class="mt-3">{{ product.description }}</p>
-				<p class="mt-3 mb-1"><strong>Quantity:</strong></p>
+				<p class="mt-3 mb-1"><span class="font-weight-bold text-muted">Quantity:</span></p>
 
 				<form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
 					{% csrf_token %}
@@ -160,7 +160,7 @@
 								</span>
 								<span class="text-uppercase">Keep Shopping</span>
 							</a>
-							<input type="submit" class="btn btn-elegant btn-md text-uppercase mt-5" value="Add to Bag">
+							<button type="submit" class="btn btn-elegant btn-md waves-effect text-uppercase mt-5">Add to Bag</button>
 							<input type="hidden" name="redirect_url" value="{{ request.path }}">
 						</div>
 					</div>
