@@ -423,8 +423,8 @@ form div>label.active {
 
 .header .list-inline-item.show a.nav-link,
 .header .list-inline-item a.nav-link:hover,
-nav .nav-item.show,
-nav .nav-item:hover {
+nav .nav-item.show .nav-link,
+nav .nav-item .nav-link:hover {
   background-color: #d8d8d86e;
   border-radius: 0.25rem;
 }
