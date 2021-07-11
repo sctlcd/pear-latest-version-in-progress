@@ -24,6 +24,10 @@
   padding: .7rem 1.6rem !important;
 }
 
+.contact-form label {
+  color: #6c757d;
+}
+
 /* -------------------------------- Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
