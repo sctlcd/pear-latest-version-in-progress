@@ -27,3 +27,25 @@
 .contact-form label {
   color: #6c757d;
 }
+
+/* -------------------------------- Media Queries */
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575px) {
+  .contact-information-container {
+    padding-top: 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  .contact-information-container {
+    padding-top: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact-information-container {
+    padding-top: 10rem;
+  }
+}
