@@ -155,6 +155,10 @@ a.text-danger:hover, a.text-danger:focus {
   border: 1px solid #aab7c4 !important;
 }
 
+.border-dark-grey {
+  border: 1px solid #6c757d !important;
+}
+
 .bg-transparent {
   background-color: rgba(0, 0, 0, 0.60) !important;
 }
