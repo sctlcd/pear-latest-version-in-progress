@@ -25,11 +25,11 @@
 			<div class="image-container my-5 mx-5 zoom">
 				{% if product.image %}
 				<a href="{{ MEDIA_URL }}{{ product.image }}" target="_blank">
-					<img class="img-fluid rounded" src="{{ MEDIA_URL }}{{ product.image }}" alt="{{ product.name }}">
+					<img class="img-fluid rounded" src="{{ MEDIA_URL }}/products/product_images/{{ product.image }}" alt="{{ product.name }}">
 				</a>
 				{% else %}
 				<a href="{{ MEDIA_URL }}noimage.png">
-					<img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+					<img class="img-fluid rounded" src="{{ MEDIA_URL }}/products/no_image/noimage.png" alt="{{ product.name }}">
 				</a>
 				{% endif %}
 			</div>
