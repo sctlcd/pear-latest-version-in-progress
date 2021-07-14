@@ -11,5 +11,4 @@ env.py
 contact/static/contact/js/contact-form-validation.js
 gallery/templates/gallery/gallery_copy.html
 media/image_backup
-media/products
-media/gallery
+media/products/.old
