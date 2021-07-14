@@ -9,11 +9,12 @@ class UserProfileForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         """
-        Add placeholders and classes, remove auto-generated
-        labels and set autofocus on first field
+            Add placeholders and classes, remove auto-generated
+            labels and set autofocus on first field
         """
         super().__init__(*args, **kwargs)
         placeholders = {
+            'full_name': 'Full Name',
             'default_phone_number': 'Phone Number',
             'default_postcode': 'Postal Code',
             'default_town_or_city': 'Town or City',

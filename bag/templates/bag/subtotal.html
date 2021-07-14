@@ -1,4 +1,4 @@
 {% load bag_tools %}
 
 <p class="my-0"><span class="text-muted">Price Each: </span>${{ item.product.price }}</p>
-<p><span class="text-muted font-weight-bold">Subtotal: </span>${{ item.product.price | calc_subtotal:item.quantity }}</p>
+<p class="font-weight-bold"><span class="text-muted">Subtotal: </span>${{ item.product.price | calc_subtotal:item.quantity }}</p>
