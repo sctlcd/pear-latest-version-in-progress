@@ -12,3 +12,4 @@ contact/static/contact/js/contact-form-validation.js
 gallery/templates/gallery/gallery_copy.html
 media/image_backup
 media/products/.old
+media/error/
