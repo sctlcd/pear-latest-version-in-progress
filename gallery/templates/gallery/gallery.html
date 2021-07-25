@@ -66,7 +66,7 @@
 										{% if item.image %}
 										<img src="{{ MEDIA_URL }}{{ item.image }}" class="img-fluid" />
 										{% else %}
-										<img class="img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.author_name }}">
+										<img class="img-fluid" src="{{ MEDIA_URL }}products/no_image/noimage.png" alt="{{ item.author_name }}">
 										{% endif %}
 									</div>
 									<div class="modal-social-medias justify-content-center mt-5 mb-5">
@@ -169,7 +169,7 @@
 							{% if item.image %}
 							<img class="img-thumbnail z-depth-1 d-inline" src="{{ MEDIA_URL }}{{ item.image }}" alt="image{{ item.id }}" data-toggle="modal" data-target="#modal{{ item.id }}">
 							{% else %}
-							<img class="img-thumbnail z-depth-1 d-inline" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.author_name }}">
+							<img class="img-thumbnail z-depth-1 d-inline" src="{{ MEDIA_URL }}products/no_image/noimage.png" alt="{{ item.author_name }}">
 							{% endif %}
 						</a>
 						<div class="caption pt-4">
