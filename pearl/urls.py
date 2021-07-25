@@ -31,6 +31,7 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+handler404 = 'pearl.views.handler403'
 handler404 = 'pearl.views.handler404'
 handler500 = 'pearl.views.handler500'
 
