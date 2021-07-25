@@ -726,7 +726,6 @@ Back to [top](#tableOfContents)
 
 - If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible (from products page, gallery page).  
 - Set image gallery back to required.
-- Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
 - Create a Project folder at the root of Pearl repository containing the code project repositories in order to separate design and testing folders from the code project repository.
 
 Back to [top](#tableOfContents)
