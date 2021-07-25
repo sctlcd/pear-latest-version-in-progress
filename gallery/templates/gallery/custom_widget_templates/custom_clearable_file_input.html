@@ -1,7 +1,7 @@
 {% if widget.is_initial %}
     <p class="mb-1"><small>{{ widget.initial_text }}:</small></p>
-    <a href="{{ widget.value.url }}" class="zoom">
-        <img width="96" height="96" class="rounded shadow-sm mb-2" src="{{ widget.value.url }}">
+    <a href="https://sctlcd-pearl-latest-version.s3.amazonaws.com/media/gallery/{{ widget.value }}" class="zoom">
+        <img width="96" height="96" class="rounded shadow-sm mb-2" src="https://sctlcd-pearl-latest-version.s3.amazonaws.com/media/gallery/{{ widget.value }}">
     </a>
     {% if not widget.required %}
         <div class="custom-control custom-checkbox mt-3">
