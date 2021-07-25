@@ -1,6 +1,6 @@
 {% if widget.is_initial %}
     <p class="mb-1"><small>{{ widget.initial_text }}:</small></p>
-    <a href="https://sctlcd-pearl-latest-version.s3.amazonaws.com/media/gallery/{{ widget.value }}" class="zoom">
+    <a href="https://sctlcd-pearl-latest-version.s3.amazonaws.com/media/gallery/{{ widget.value }}" class="zoom" target="_blank">
         <img width="96" height="96" class="rounded shadow-sm mb-2" src="https://sctlcd-pearl-latest-version.s3.amazonaws.com/media/gallery/{{ widget.value }}">
     </a>
     {% if not widget.required %}
