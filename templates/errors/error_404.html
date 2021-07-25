@@ -14,14 +14,22 @@
 {% endblock %}
 
 {% block content %}
-<div class="container text-center text-muted my-5">
+<div class="container error-container text-center text-muted my-5">
 	<div class="row">
-		<div class="col-12 mt-4">
-			<h1>Error 404</h1>
-			<h2 class="pt-3 pb-5">Page Not Found</h2>
-			<h4 class="pt-5">Whoops! This page doesn't exist!</h4>
+		<div class="col-12">
+			<h1 class="mb-5">Page not found!</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3 col-xl-6 offset-xl-3">
+      <img src="{{ MEDIA_URL }}errors/error_404-min.jpg" alt="Error 404" class="error-img responsive-img zoom">
+    </div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<h4 class="pt-5 mt-5">Oops! This page doesn't exist!</h4>
 			<h4 class="py-3">Let's go back to
-				<span><a id="back-products-home" class="text-info" href="{% url 'products' %}">Products Home</a></span>!
+				<span><a id="back-products-home" href="{% url 'products' %}">Products Home</a></span>!
 			</h4>
 		</div>
 	</div>

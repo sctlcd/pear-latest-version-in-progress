@@ -10,4 +10,6 @@ package-lock.json
 env.py
 contact/static/contact/js/contact-form-validation.js
 gallery/templates/gallery/gallery_copy.html
-media/error/
+media/errors/error_400-min.jpg
+media/errors/error_403-min.jpg
+media/errors/error_500-min.jpg
