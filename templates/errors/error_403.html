@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_title %}
-- Error 500: Internal Server Error
+- Error 403: Forbidden access
 {% endblock %}
 
 {% block page_header %}
@@ -17,22 +17,20 @@
 <div class="container error-container text-center text-muted my-5">
 	<div class="row">
 		<div class="col-12">
-			<h1 class="pb-5 mb-5">Internal Server Error</h1>
+			<h1 class="mb-5">Forbidden access!</h1>
 		</div>
 	</div>
 	<div class="row justify-content-center">
 		<div class="col-12 col-lg-10">
-      <img src="{{ MEDIA_URL }}errors/error_500-min.jpg" alt="Error 500" class="error-img responsive-img zoom">
+      <img src="{{ MEDIA_URL }}errors/error_403-min.jpg" alt="Error 403" class="error-img responsive-img zoom">
     </div>
 	</div>
 	<div class="row">
 		<div class="col-12">
-			<h4 class="pt-5 mt-5">Doops! Well this is unexpected!</h4>
-			<h4 class="pt-3">An error has occured and we're working to fix the problem!</h4>
-			<h4 class="pt-3">We'll be up and running shortly.</h4>
-			<h5 class="py-3">Let's go back to
+			<h4 class="pt-5 mt-5">Arrrg! You don't have access to this page or resource!</h4>
+			<h4 class="py-3">Let's go back to
 				<span><a id="back-products-home" href="{% url 'products' %}">Products Home</a></span>!
-			</h5>
+			</h4>
 		</div>
 	</div>
 </div>
