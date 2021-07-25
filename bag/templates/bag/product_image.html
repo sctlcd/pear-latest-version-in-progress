@@ -4,6 +4,6 @@
 </a>
 {% else %}
 <a href="{% url 'item_detail' item.item_id item.quantity %}" class="pl-4">
-<img class="img-fluid rounded mr-5" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+<img class="img-fluid rounded mr-5" src="{{ MEDIA_URL }}products/no_image/noimage.png" alt="{{ item.product.name }}">
 </a>
 {% endif %}

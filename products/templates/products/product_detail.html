@@ -24,11 +24,11 @@
 		<div class="col-12 col-md-6 col-lg-4 text-center">
 			<div class="image-container my-5 mx-5 zoom">
 				{% if product.image %}
-				<a href="{{ MEDIA_URL }}{{ product.image }}" target="_blank">
+				<a href="{{ MEDIA_URL }}products/product_images/{{ product.image }}" target="_blank">
 					<img class="img-fluid rounded" src="{{ MEDIA_URL }}products/product_images/{{ product.image }}" alt="{{ product.name }}">
 				</a>
 				{% else %}
-				<a href="{{ MEDIA_URL }}noimage.png">
+				<a href="{{ MEDIA_URL }}products/no_image/noimage.png">
 					<img class="img-fluid rounded" src="{{ MEDIA_URL }}products/no_image/noimage.png" alt="{{ product.name }}">
 				</a>
 				{% endif %}
