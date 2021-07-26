@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_title %}
-- Error 404: Page Not Found
+- Error 400: Bad request
 {% endblock %}
 
 {% block page_header %}
@@ -17,17 +17,17 @@
 <div class="container error-container text-center text-muted my-5">
 	<div class="row">
 		<div class="col-12">
-			<h1>Page not found!</h1>
+			<h1>Bad request!</h1>
 		</div>
 	</div>
 	<div class="row justify-content-center">
 		<div class="col-12 col-lg-10 zoom">
-      <img src="{{ MEDIA_URL }}errors/error_404-min.jpg" alt="Error 404" class="error-img responsive-img">
+      <img src="{{ MEDIA_URL }}errors/error_400-min.jpg" alt="Error 400" class="error-img responsive-img">
     </div>
 	</div>
 	<div class="row">
 		<div class="col-12">
-			<h4 class="pt-5 mt-5">Oops! This page doesn't exist!</h4>
+			<h4 class="pt-5 mt-5">Uuh Ooh! Your browser sent something I don't understand!</h4>
 			<h4 class="py-3">Let's go back to
 				<span><a id="back-products-home" href="{% url 'products' %}">Products Home</a></span>!
 			</h4>

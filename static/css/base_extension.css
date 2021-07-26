@@ -316,6 +316,10 @@ body {
   .bag-container-mobile .product-info {
     margin-top: 2rem;
   }
+
+  .error-container {
+    max-width: 90%;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */

@@ -3,6 +3,20 @@ from django.shortcuts import render
 
 # Pearl views
 
+def handler400(request, exception):
+    """
+        Error Handler 400 - Bad request
+    """
+    return render(request, 'error_400.html', status=400)
+
+
+def handler403(request, exception):
+    """
+        Error Handler 403 - Forbidden access
+    """
+    return render(request, 'error_403.html', status=403)
+
+
 def handler404(request, exception):
     """
         Error Handler 404 - Page Not Found

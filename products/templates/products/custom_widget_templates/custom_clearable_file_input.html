@@ -1,7 +1,9 @@
+ {# widget image path setup for production env #}
+
 {% if widget.is_initial %}
     <p class="mb-1"><small>{{ widget.initial_text }}:</small></p>
-    <a href="{{ widget.value.url }}" class="zoom">
-        <img width="96" height="96" class="widget-image rounded mt-2" src="{{ widget.value.url }}">
+    <a href="https://sctlcd-pearl-latest-version.s3.amazonaws.com/media/products/product_images/{{ widget.value }}" class="zoom" target="_blank">
+        <img width="96" height="96" class="widget-image rounded mt-2" src="https://sctlcd-pearl-latest-version.s3.amazonaws.com/media/products/product_images/{{ widget.value }}">
     </a>
     {% if not widget.required %}
         <div class="custom-control custom-checkbox mt-3">
