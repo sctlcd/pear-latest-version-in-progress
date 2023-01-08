@@ -6,9 +6,9 @@
 <dd>Then this website is a <span class="font-weight-bold">pearl</span> to you!</dd>
 <dd>At Pearl's you can <span class="font-weight-bold">purchase arts and crafts supplies</span> and <span class="font-weight-bold">sharing customers' work of art</span> in the meantime as <span class="font-weight-bold">getting inspiration</span> from other customers' creative work in the <span class="font-weight-bold">gallery</span>.</dd>
 
-[Let me show you!](https://sctlcd-pearl3-latest-version.herokuapp.com/)
-<br />
-<br />
+<!-- [Let me show you!](https://sctlcd-pearl3-latest-version.herokuapp.com/) -->
+## **New deployed app coming soom (Heroku has ended its free product plans)**
+
 **Warning**
 <br />
 Because of an issue relative to submitting a form with an uploaded image in my deployed environment I did set up the image field in the gallery model as not required for limiting the impact of the issue which has been solved just before my project deadline submission. I set up initially the gallery image field as required. I will set it back to required in the future.
