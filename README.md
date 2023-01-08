@@ -1,6 +1,7 @@
 # [Pearl](https://sctlcd-pearl3-latest-version.herokuapp.com/)
 
-## **New deployed app coming soon (Heroku has ended its free product plans)**
+### **New deployed app coming soon (Heroku has ended its free product plans)**
+<br>
 
 <img src="https://github.com/sctlcd/pearl-latest-version-in-progress/blob/master/design/mockups.png" alt="Pearl" width="800">
 <dl>
